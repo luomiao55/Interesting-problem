@@ -6,7 +6,7 @@ def answer(m):
         for i, v in enumerate(m):
             if sum(v) == 0:
                 count += 1
-        return [0]*count
+        return [1]*count
     
     elif m[0][0] == sum(m[0]):
         return [1]+[0]*(len(m)-1)+[1]
