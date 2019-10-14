@@ -1,4 +1,4 @@
-# Interesting-problem
+# An Absorbing Markov Chains problem
 Doomsday Fuel
 =============
 
