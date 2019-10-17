@@ -51,6 +51,9 @@ def lcm(a,b):
     return a*b/gcd(a,b)    
 
 def matrixMul(A, B):
+    '''
+    Matrix Multiplication
+    '''
     res = [[0] * len(B[0]) for i in range(len(A))]
     for i in range(len(A)):
         for j in range(len(B[0])):
@@ -58,6 +61,9 @@ def matrixMul(A, B):
                 res[i][j] += A[i][k] * B[k][j]
     return res              
 def matrix_ni(matrix):
+    '''
+    obtain the reverse matrix of given matrix
+    '''
     extend_matrix = deepcopy(matrix)
     l = len(matrix)
     for i in range(0, l):    
